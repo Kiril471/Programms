@@ -1,0 +1,16 @@
+print("Программа по нахождению среднего геометрического положительного числа в пределах 100")
+a = int(input())
+b = int(input())
+num1 = a ** (0.5)
+num2 = b ** (0.5)
+nums = [num1,num2]
+length = len(nums)
+# формула
+Geom = num1 * num2
+if Geom < 0 or Geom > 100:
+    print("Ошибка!")
+elif num1 == num2:
+    print("Ошибка!!!")
+else:
+        for i in range(length):
+             print(str(i+1.),nums[i])
