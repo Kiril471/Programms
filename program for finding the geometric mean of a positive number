@@ -8,9 +8,9 @@ length = len(nums)
 # формула
 Geom = num1 * num2
 if Geom < 0 or Geom > 100:
-    print("Ошибка!")
+    print("Error!")
 elif num1 == num2:
-    print("Ошибка!!!")
+    print("Error!!!")
 else:
         for i in range(length):
              print(str(i+1.),nums[i])
